@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_bigs",
+  "info": {
+    "displayName": "Big"
+  },
+  "options": {},
+  "attributes": {
+    "layout": {
+      "type": "string",
+      "required": true,
+      "default": "row"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "action": {
+      "displayName": "Action",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.action"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_actions",
+  "info": {
+    "displayName": "Action"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "action": {
+      "type": "text"
+    },
+    "style": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_menu_bars",
+  "info": {
+    "displayName": "MenuBar"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "displayName": "MenuItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-item"
+    }
+  }
+}
