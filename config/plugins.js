@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
       jwtSecret: env("JWT_SECRET"),
     },
   },
-  upload: {
+  upload0: {
     config: {
       provider: "provider-upload-qiniu-cloud", // full package name is required
       providerOptions: {
@@ -13,16 +13,13 @@ module.exports = ({ env }) => ({
         prefix: env("QINIU_PREFIX", ""),
         zone: env("QINIU_ZONE", "Zone_z0"),
         bucket: env("QINIU_BUCKET", ""),
-        publicBucketDomain: env(
-          "QINIU_PUBLIC_BUCKET_DOMAIN",
-          "http://if-pbl.qiniudn.com"
-        ),
+        publicBucketDomain: env("QINIU_PUBLIC_BUCKET_DOMAIN", ""),
         https: env("QINIU_HTTPS", true),
         cdn: env("QINIU_CDN", false),
       },
     },
   },
-  upload0: {
+  upload: {
     config: {
       provider: "cloudinary",
       providerOptions: {
