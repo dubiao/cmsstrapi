@@ -13,9 +13,13 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.6.1",
     "@strapi/plugin-users-permissions": "4.6.1",
+    "@strapi/provider-upload-cloudinary": "^4.6.1",
     "@strapi/strapi": "4.6.1",
+    "add": "^2.0.6",
     "better-sqlite3": "7.4.6",
-    "pg": "^8.9.0"
+    "pg": "^8.9.0",
+    "provider-upload-qiniu-cloud": "^1.0.1",
+    "yarn": "^1.22.19"
   },
   "author": {
     "name": "A Strapi developer"
